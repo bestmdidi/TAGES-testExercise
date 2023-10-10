@@ -1,0 +1,9 @@
+{
+	"name": "test-exersise",
+	"version": "0.1.0",
+	"main": "index.js",
+	"author": "<mxitarmanasyan@mail.ru>",
+	"scripts": {
+		"start": "node index.js"
+	}
+}
