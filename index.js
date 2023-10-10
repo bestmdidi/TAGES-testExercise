@@ -3,8 +3,8 @@ const { promisify } = require('util');
 const readline = require('readline');
 
 const fileSize = 1024 * 1024 * 500;
-const inputFilePath = 'input.txt';
-const outputFilePath = 'output.txt';
+const inputFilePath = 'text.txt';
+const outputFilePath = 'result.txt';
 
 const inputFile = fs.createReadStream(inputFilePath, { encoding: 'utf8' });
 const outputFile = fs.createWriteStream(outputFilePath, { encoding: 'utf8' });
